@@ -1,0 +1,39 @@
+p {
+    color: red;
+  }
+  html {
+    font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    font-family:
+      "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+  }
+  /*最好从上到下把所有元素的样式都设置一遍*/
+  p,li{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+ }  
+h1 {
+  font-size:70px;
+  text-align:center;  /*居中*/
+}
+html{
+  background-color: cornflowerblue;
+}
+body{
+  width:auto;
+  margin:1,1,1,1;
+  background-color: cornsilk;
+  padding: 0, 20px, 20px, 20px;
+  border: 5px solid burlywood;
+}
+h1{
+  margin:0; /*恢复浏览器默认样式*/
+  padding: 20px 0;
+  color: #010100;
+  text-shadow: 3px 3px 1px black;/*从左到右，阴影的水平偏移量，垂直偏移量，模糊半径*/
+}
+/*图像居中*/
+img{
+  display: block;
+  margin: 0 auto;
+}
